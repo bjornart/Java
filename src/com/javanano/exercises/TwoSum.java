@@ -20,7 +20,7 @@ public class TwoSum{
         boolean canBeSummed = twoSum(intArray, target);
         System.out.println("Two numbers of "+ Arrays.toString(intArray) + " can be summed to " + target + ": "+canBeSummed);
 
-        intArray = new int[]{1,4,5,1,6};
+        intArray = new int[]{1,4,5,1,6,6};
         target = 12;
         System.out.println("Two numbers of "+ Arrays.toString(intArray) + " can be summed to " + target + ": "+twoSum(intArray, target));
 
